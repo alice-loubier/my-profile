@@ -1,3 +1,28 @@
+.container {
+	width: 800px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
 /* Colors and fonts */
 
 p{
@@ -46,38 +71,16 @@ a:hover {
 
 
 
-
-/* Custome design with class*/
-
-.container {
-	width: 700px;
-	margin: 40px auto;
-}
-
-
-@media (max-width: 760px) {
-	.container {
-		width: 600px;
-	}
-}
-
-@media (max-width: 500px) {
-	.container {
-		width: 400px;
-	}
-}
-
-
 .card-yellow {
 	background: #F9F3DF;
 	margin: 20px;
 	padding: 40px;
 	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 	border-radius: 20px;
-	width: 700px;
 	text-align: center;
 	line-height: 1.5em;
 }
+
 .btn-blue{
 	background-color: white;
 	color: #055052;
